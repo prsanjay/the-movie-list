@@ -1,8 +1,15 @@
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <main>
+      <div className="pattern" />
+      <div className="wrapper">
+        <header>
+          <img src="./hero.png" alt="Hero image" />
+          <h1>Find <span className="text-gradient">Movies</span> You will Enjoy!</h1>
+        </header>
+        <p>Search</p>
+      </div>
+    </main>
   )
 }
 
