@@ -12,7 +12,6 @@ const Search = ({ searchTerm, setSearchTerm }: Readonly<SearchProps>) => {
           onChange={(e) => { setSearchTerm(e.target.value) }}
         />
       </div>
-      <h1 className='text-white'>{searchTerm}</h1>
     </div>
   )
 }
